@@ -1,0 +1,58 @@
+
+<html>
+<head>
+ <title>Online Simple Calculator
+ </title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="stylesheet" type="text/css" href="stylecalci.css">
+</head>
+
+<body>
+   <script src="hhj.js"></script>
+   <h1> Calculator</h1>
+<div class="calculator">
+   
+<form  name="calcform">
+   <input type="text" name="ans" id="answer"><br>
+   <input type="button" value=" CLEAR  " onclick="calculateform() " id="clear">
+   <input type="button" value=" % " onclick="calcform.ans.value += '%' ">
+   <input type="button" value=" / " onclick="calcform.ans.value += '/' ">
+   
+   <br>
+
+   <input type="button" value=" 7 " onclick="calcform.ans.value += '7' ">
+   <input type="button" value=" 8 " onclick="calcform.ans.value += '8' ">
+   <input type="button" value=" 9 " onclick="calcform.ans.value += '9' ">
+   <input type="button" value=" X " onclick="calcform.ans.value += '*' ">
+ 
+   <br>
+
+   <input type="button" value=" 4 " onclick="calcform.ans.value += '4' ">
+   <input type="button" value=" 5 " onclick="calcform.ans.value += '5' ">
+   <input type="button" value=" 6 " onclick="calcform.ans.value += '6' ">
+   <input type="button" value=" - " onclick="calcform.ans.value += '-' ">
+ 
+   <br>
+
+   <input type="button" value=" 1 " onclick="calcform.ans.value += '1' ">
+   <input type="button" value=" 2 " onclick="calcform.ans.value += '2' ">
+   <input type="button" value=" 3 " onclick="calcform.ans.value += '3' ">
+   <input type="button" value=" + " onclick="calcform.ans.value += '+' ">
+ 
+   <br>
+
+   <input type="button" value=" 0 " onclick="calcform.ans.value += '0' ">
+   <input type="button" value=" 00 "onclick="calcform.ans.value += '0' ">
+   <input type="button" value=" . " onclick="calcform.ans.value += '.' ">
+   <input type="button" value=" = " onclick="calcform.ans.value = eval(calcform.ans.value)" id="equals">
+ 
+
+</form>    
+
+</div>
+     
+</body>
+
+</html>
